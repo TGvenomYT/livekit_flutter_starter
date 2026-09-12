@@ -10,11 +10,6 @@ This template is compatible with iOS, macOS, Android, and web. It is free for yo
 
 ## Getting started
 
-Run the following command to automatically clone this template and connect it to LiveKit Cloud.
-
-```bash
-lk app create --template agent-starter-flutter
-```
 
 This will create a new Flutter project in the current directory. Install dependencies and run the app:
 ```bash
