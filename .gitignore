@@ -31,3 +31,14 @@ doc/api/
 
 .idea/
 *.iml
+# Jarvis local memory (personal data + generated hotwords)
+agent-backend/jarvis_memory.json
+agent-backend/hotwords.txt
+# Agent Backend Dependencies and Models
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.onnx
+*.bin

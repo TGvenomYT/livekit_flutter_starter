@@ -7,7 +7,7 @@ PODS:
   - flutter_webrtc (1.6.0):
     - Flutter
     - WebRTC-SDK (= 144.7559.09)
-  - livekit_client (2.10.0):
+  - livekit_client (2.12.0):
     - Flutter
     - flutter_webrtc
     - WebRTC-SDK (= 144.7559.09)
@@ -46,10 +46,10 @@ SPEC CHECKSUMS:
   device_info_plus: 21fcca2080fbcd348be798aa36c3e5ed849eefbe
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   flutter_webrtc: f952258e6fa67477d481cfbad2885a4f117922a7
-  livekit_client: 6c0d36eefa88d025cd990f7af5feac2a5cedc346
+  livekit_client: bf9de63fed5bbbbba717f7995d595ff30c9a8b58
   url_launcher_ios: 7a95fa5b60cc718a708b8f2966718e93db0cef1b
   WebRTC-SDK: e6006119cd730d6315d875e4a421b6cc8bb88833
 
 PODFILE CHECKSUM: a57f30d18f102dd3ce366b1d62a55ecbef2158e5
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.17.0

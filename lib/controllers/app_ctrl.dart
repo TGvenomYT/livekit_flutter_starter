@@ -34,9 +34,9 @@ class AppCtrl extends ChangeNotifier {
   late final sdk.Session session = _createSession(room: room);
 
   static sdk.Session _createSession({required sdk.Room room}) {
-    // Development-only hardcoded credentials (optional).
-    const hardcodedServerUrl = null; // e.g. 'wss://your-host'
-    const hardcodedToken = null; // e.g. 'eyJ...'
+    // Development-only hardcoded credentials or injected via isolated entrypoint.
+    final hardcodedServerUrl = dotenv.env['LIVEKIT_URL']; 
+    final hardcodedToken = dotenv.env['LIVEKIT_TOKEN']; 
 
     if (hardcodedServerUrl != null && hardcodedToken != null) {
       return sdk.Session.fromFixedTokenSource(

@@ -32,6 +32,8 @@
 	<string>Voice Assistant uses your camera</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Voice Assistant uses your microphone</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Voice Assistant needs access to the local network to connect to the AI server</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>
